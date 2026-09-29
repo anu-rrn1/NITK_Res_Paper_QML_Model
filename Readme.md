@@ -2,7 +2,7 @@
 
 ## Aim
 
-The aim of this work is to study whether a **hybrid quantum-classical model** can be used for sentiment classification and how its performance compares with classical models. We use the **SST-2 dataset** and convert text embeddings into a small quantum representation before classification.
+The aim of this work is to study whether a **hybrid quantum-classical model** can be used for sentiment classification and how its performance compares with classical models. We use the **SST-2 Glue dataset** and convert text embeddings into a small quantum representation before classification.
 
 ## Model
 
@@ -11,7 +11,7 @@ The model takes **768-dimensional BERT embeddings** and uses a trainable project
 ## Workflow
 
 ```text
-SST-2 Dataset
+SST-2 Glue Dataset
       ↓
 BERT Embeddings
       ↓
@@ -32,7 +32,7 @@ Classical Classifier
       ↓
 Sentiment Prediction
       ↓
-SST-2 Predictions
+SST-2 Glue Predictions
       ↓
 SST-2.tsv
 ```
