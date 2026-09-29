@@ -1,4 +1,4 @@
-# Hybrid Quantum-Classical Sentiment Analysis
+# Hybrid Quantum-Classical Sentiment Analysis for only SST-2 Glue (We would like to evaluate on only one dataset, SST-2 Glue.)
 
 ## Aim
 
